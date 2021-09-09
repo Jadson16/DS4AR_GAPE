@@ -41,5 +41,6 @@ cache
 # pkgdown site
 docs
 
-# translation temp files
-po/*~
+# projeto atual
+R4DS_GAPE.Rproj
+
