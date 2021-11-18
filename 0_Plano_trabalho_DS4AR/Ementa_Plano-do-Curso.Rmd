@@ -43,12 +43,12 @@ Apresentar aos alunos os conceitos básicos da área de conhecimento interdiscip
     2. Estrutura de um Artigo Empírico;
     3. Reprodutibilidade da Pesquisa Ciêntifica.
     
-3. **O mundo tidyverse**
+3. **R e o mundo tidyverse**
     1. Console, Script e Objetos;
     2. Instalando pacotes;
     2. Bibliotecas.
 
-4. **Importando dados**
+4. **Importação de dados**
     1. Tipos de Dados;
     2. Pacotes para leitura de dados;
     3. Importando dados públicos (IBGE e BACEN).
@@ -74,12 +74,20 @@ Apresentar aos alunos os conceitos básicos da área de conhecimento interdiscip
 Teremos 3 encontros das 15h às 17h, nos dias 15, 16 e 17 de dezembro de 2021, na seguinte sala virtual no Google Meet: [Link](https://meet.google.com/msd-zddv-isd)
 
 
+
+| Dias                 | Conteúdos           |  
+|:--------------------:|--------------------:|
+| 15/12/2021           | 1, 2 e 3            |
+| 16/12/2021           | 4 e 5               |
+| 17/12/2021           | 6, 7 e 8            | 
+
+
 [comment]: <> (
 | Dias                 | Conteúdo             |  
 |:--------------------:|:--------------------:|
-| 15/12/2021           |                      |
-| 16/12/2021           |                      |
-| 17/12/2021           |                      | )
+| 15/12/2021           | 1, 2 e 3         |
+| 16/12/2021           | 4 e 5            |
+| 17/12/2021           | 6, 7 e 8        | )
 
 
 
