@@ -45,7 +45,7 @@ Apresentar aos alunos os conceitos básicos da área de conhecimento interdiscip
     
 3. **O mundo tidyverse**
     1. Console, Script e Objetos;
-    2. Instalando de pacotes;
+    2. Instalando pacotes;
     2. Bibliotecas.
 
 4. **Importando dados**
@@ -53,7 +53,7 @@ Apresentar aos alunos os conceitos básicos da área de conhecimento interdiscip
     2. Pacotes para leitura de dados;
     3. Importando dados públicos (IBGE e BACEN).
 
-5. **Tratamento**
+5. **Limpeza e Tratamento**
     1. O pacote dplyr;
     2. O pacote luvridate.
 
