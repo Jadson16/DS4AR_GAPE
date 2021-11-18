@@ -1,0 +1,91 @@
+---
+title: "**Programa do Curso**"
+subtitle: Introdução à Ciência de Dados como Prática na Pesquisa Acadêmica
+date: '`r format(Sys.time(), "%d de %B de %Y")`.'
+author: "Jadson Pessoa"
+output:
+  pdf_document: 
+  html_document: default
+header-includes:
+- \usepackage{hyperref}
+- \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, }
+- \usepackage{float}
+- \usepackage{dcolumn}
+- \usepackage{color}
+- \usepackage{pdfpages}
+- \usepackage[utf8]{inputenc}
+bibliography: references.bib
+biblio-style: kluwer
+mainfont: Times New Roman
+sansfont: Times New Roman
+fontsize: 12pt
+link-citations: true
+documentclass: article
+geometry: "paperwidth=210mm,paperheight=297mm,left=27mm,right=27mm,top=27mm,bottom=27mm"
+---
+
+# Ementa:
+Introduação à Ciência de Dados. Ciência de Dados e a Pesquisa Acadêmica. Caracterização das principais etapas da Ciência de Dados (Workflow). Linguagens de programação para Ciência de dados. Coleta, limpeza e tratamento, modelagem e Comunicação. Criação de um projeto na prática (laboratório).
+
+# Objetivo:
+Apresentar aos alunos os conceitos básicos da área de conhecimento interdisciplinar conhecida como Ciência de Dados (_Data Science_). Buscaremos apresentar também, como as etapas típicas de um projeto de ciências de dados são aplicadas nas atividades de pesquisa acadêmica. 
+
+# Programa:
+
+1. **Conceitos Básicos de Ciências de Dados**
+    1. O que é Ciência de Dados?
+    2. Workflow em Ciência de Dados;
+    3. Linguagens de programação para Ciência de Dados;
+    4. R, RStudio e Repositórios.
+
+2. **Ciência de Dados e a Pesquisa Acadêmica**
+    1. Pesquisa Teórica e Pesquisa Teórica-Empírica;
+    2. Estrutura de um Artigo Empírico;
+    3. Reprodutibilidade da Pesquisa Ciêntifica.
+    
+3. **O mundo tidyverse**
+    1. Console, Script e Objetos;
+    2. Instalando de pacotes;
+    2. Bibliotecas.
+
+4. **Importando dados**
+    1. Tipos de Dados;
+    2. Pacotes para leitura de dados;
+    3. Importando dados públicos (IBGE e BACEN).
+
+5. **Tratamento**
+    1. O pacote dplyr;
+    2. O pacote luvridate.
+
+6. **Visualização**
+    1. O pacote ggplot2;
+    2. Mapas no R (geobr).
+
+7. **Modelagem**
+    1. Modelagem de dados;
+    2. Modelo Linear.
+
+8. **Comunicação**
+    1. RMarkdown;
+    2. Estrutura do arquivo R Markdown.
+
+# Cronograma das Aulas:
+
+Teremos 3 encontros das 15h às 17h, nos dias 15, 16 e 17 de dezembro de 2021, na seguinte sala virtual no Google Meet: [Link](https://meet.google.com/msd-zddv-isd)
+
+
+[comment]: <> (
+| Dias                 | Conteúdo             |  
+|:--------------------:|:--------------------:|
+| 15/12/2021           |                      |
+| 16/12/2021           |                      |
+| 17/12/2021           |                      | )
+
+
+
+
+# Referências
+
+Wickham, Hadley, and Garrett Grolemund. **R for data science**: import, tidy, transform, visualize, and model data. " O'Reilly Media, Inc.", 2016.
+
+

@@ -1,5 +1,5 @@
 ---
-title: "Introdução ao R e mundo *tidyverse*"
+title: "Introdução à Ciência de Dados como Prática na Pesquisa Acadêmica"
 #subtitle: "Seção 01 - Introdução a Ciência de Dados e mundo *tidyverse*"
 author: "Jadson Pessoa"
 output: 
@@ -26,19 +26,22 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 ```
 
+# Ementa
+
+
 # Introdução
 
 ## Introdução
 
--   Ciência de Dados (*Data Science*); \pause
+-   Ciência de Dados (*Data Science*);
 
     \bigskip
 
--   Conjunto de técnicas de coleta, tratamento, análise e apresetação de dados; \pause
+-   Conjunto de técnicas de coleta, tratamento, análise e apresetação de dados;
 
     \bigskip
 
--   Sistematização de dados em busca informações úteis. \pause
+-   Sistematização de dados em busca informações úteis.
 
     \bigskip
 
