@@ -13,6 +13,7 @@ output:
     includes:
       in_header: beamer.txt
       before_body: toc.txt
+urlcolor: blue 
 bibliography: 'references.bib'
 ---
 
@@ -26,12 +27,51 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 ```
 
-# Ementa
 
 
-# Introdução
+# Objetivos
 
-## Introdução
+- Apresentar qual o entendimento que temos hoje do termo "**Ciência de Dados**" ou, como ficou mais conhecido, **Data Science**, em inglês.
+
+
+## O que é Ciência de Dados?
+
+>> Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data [IBM](https://www.ibm.com/cloud/learn/data-science-introduction).
+\pause
+
+\bigskip
+
+> Data science combines multiple fields, including statistics, scientific methods, artificial intelligence (AI), and data analysis, to extract value from data [Oracle](https://www.oracle.com/data-science/what-is-data-science/).
+\pause
+
+\bigskip
+> Data science [...] allow you to turn raw data into understanding, insight, and knowled. (@r4ds) 
+
+
+
+## O que é Ciência de Dados?
+
+
+![Big Data e Data Science](imagens/data-science_dominio.png){width=70%}
+
+## Big Data
+
+
+![Big Data (@hilbert2011world)](imagens/big-data.jpg)
+
+
+# Workflow em Ciência de Dados
+
+![O processo de compreensão dos dados (@r4ds)](imagens/datascience.png)
+
+# Linguagens de Programação em Ciência de Dados
+
+- Em todas as etapas temos a utilização linguagem, ou melhor _linguagens_, de programação;
+
+# R, RStudio e Repositórios
+
+
+# Atualizar
 
 -   Ciência de Dados (*Data Science*);
 
@@ -69,7 +109,7 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 ## Introdução
 
-![O processo de compreensão dos dados (@r4ds)](datascience.png)
+
 
 # Coleta e Tratamento
 
@@ -173,6 +213,6 @@ require(tidyverse)
 
 ## A família *tidyverse*
 
-![Os pacotes `tidyverse` (@r4ds)](tidyverse.png)
+![Os pacotes `tidyverse` (@r4ds)](imagens/tidyverse.png)
 
 # Referências

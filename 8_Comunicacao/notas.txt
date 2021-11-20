@@ -1,0 +1,3 @@
+
+site para boas práticas em Rmarkdonw
+https://www.markdownguide.org/basic-syntax/
