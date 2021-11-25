@@ -6,14 +6,26 @@ output: html_document
 ---
 
 
-# R4DS_GAPE
+# DS4AR_GAPE
 
 ## TODO
-- Programa da disciplina.
-- Fazer a a seção Apresentação_R4DS por último. Para ver até onde poderei ir.
-- Voltar no slide sobre *Visualização*, pois eu não gosto de muito texto como os slides do Victor.
+- Trabalhanar no tópico 2
 
-## lOGBOOK
+## BACKLOG
+- Tópicos:
+  3, 4, 5, 6, 7, 8
+
+
+
+## LOGBOOK
+
+
+**25 de nov. 2021**
+
+Finalizei o tópico 1 (conceitos básicos)
+
+**29 de out. 2021**
+Fiz os primeiros slides no tópico 1.
 
 **22 de out de 2021:**
 
