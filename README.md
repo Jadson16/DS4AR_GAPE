@@ -24,10 +24,10 @@ output: html_document
 
 Finalizei o tópico 1 (conceitos básicos)
 
-**29 de out. 2021**
+**24 de nov. 2021**
 Fiz os primeiros slides no tópico 1.
 
-**22 de out de 2021:**
+**22 de nov de 2021:**
 
   Retornei aos estudos. Verificando o que já fiz, pois não estava anotando até onde tinha ido. Péssima conduta. A melhor prática é sempre anotar o que já fiz e o que irei fazer no TODO.
     

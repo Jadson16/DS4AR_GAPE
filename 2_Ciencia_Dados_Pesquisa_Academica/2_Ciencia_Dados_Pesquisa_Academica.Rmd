@@ -31,117 +31,18 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 # Objetivos
 
-- Apresentar qual o entendimento que temos hoje do termo "**Ciência de Dados**" ou, como ficou mais conhecido, **Data Science** (DS), em inglês.
+- Apresentar a relação da sistematização de um projeto de Data Science (DS) e os modelos canônicos da pesquisa acadêmica, sobretudo, em de pesquisas que utiliza aboragem empíricas.
+
+# Pesquisa Teórica e Pesquisa Teórica-Empírica
 
 
-# O que é Ciência de Dados?
+## Passos
 
->> Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data [IBM](https://www.ibm.com/cloud/learn/data-science-introduction).
-\pause
+# Estrutura de um Artigo Empírico
 
-\bigskip
+# Reprodutibilidade da Pesquisa Ciêntifica
 
-> Data science combines multiple fields, including statistics, scientific methods, artificial intelligence (AI), and data analysis, to extract value from data [Oracle](https://www.oracle.com/data-science/what-is-data-science/).
-\pause
-
-\bigskip
-> Data science [...] allow you to turn raw data into understanding, insight, and knowledge. (@r4ds) 
-
-
-
-## Áreas multidisciplinares
-
-
-![Big Data e Data Science](imagens/data-science_dominio.png){width=70%}
-
-## Big Data
-
-
-![Big Data (@hilbert2011world)](imagens/big-data.jpg)
-
-
-## Mundo Conectado
-
-![Big Data (@Domo2020)](imagens/data-never-sleeps-9.0.png){width=70%}
-
-# Linguagens de Programação em Ciência de Dados
-
-- Dados e Escalabilidade;
-
-\bigskip
-
-- Em um projeto de DS temos a utilização de linguagem, ou melhor, _linguagens_ de programação;
-
-\bigskip
-
-- Qual á melhor linguaguem de programação? 
-
-\bigskip
-
-- Programação orientada à problema.
-
-
-
-## **Não** iremos trabalhar com:
-  \pause
-  
-  + Big Data;
-  
-  \bigskip
-  
-  + Python, Julia e outras linguagens;
-  
-  \bigskip
-  
-  + Dados não regulares (imagens, sons, textos, etc.).
-  
-  \bigskip
-
-# Workflow em Ciência de Dados
-
-![O processo de compreensão dos dados (@r4ds)](imagens/datascience.png)
-
-
-##  Sistematização de projeto em DS:
-
-
-- Os verbos do DS:
-  
-  \bigskip
-  
-  1.  Coletar;
-  
-    \bigskip
-  
-  2.  Tratar;
-  
-    \bigskip
-
-  3. Visualizar;
-  
-    \bigskip
-  
-  4. Modelar;
-
-     \bigskip
-
-  4.  Comunicar.
-
-
-# R, RStudio e Repositórios
-
-
-
-
-
-  
-# Atualizar
-
-
-
-
-
-
+# DS como prática acadêmica
 
 ## Coleta e Tratamento
 
