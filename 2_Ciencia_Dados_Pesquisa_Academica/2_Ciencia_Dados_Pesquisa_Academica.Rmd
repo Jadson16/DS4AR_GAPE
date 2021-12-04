@@ -31,23 +31,60 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 # Objetivos
 
-- Apresentar a relação da sistematização de um projeto de Data Science (DS) e os modelos canônicos da pesquisa acadêmica, sobretudo, em de pesquisas que utiliza aboragem empíricas.
+- Discutir o método científico e sua relação com a sistematização de um projeto de Data Science (DS), assim como, apresentar os modelos canônicos da pesquisa acadêmica, tendo como foco pesquisas que utilizam aboragens empíricas.
 
-# Pesquisa Teórica e Pesquisa Teórica-Empírica
+# Método Científico como Teória e Prática
+
+- Ciência como prática (técnica);
+\bigskip
+
+- Ciência como método;
+\bigskip
+
+- Ciência como epistemologia.
+    
+\bigskip
+
+>> "Ciência é sempre um enlace de uma malha teórica com dados empíricos, é sempre uma articulação do lógico com o real, do teórico com o empírico, do ideal com o real" @severino2017metodologia, p. 100.
+
+## Método Científico
+
+![Estrutura Lógica do método científico @severino2017metodologia, p.101.](imagens/metodo-cientifico.png)
+
+## Método Científico Revisitado
+
+![Computational Social Science Methods -  @hilbert2021cousuera ](imagens/metodo-Cientifico-revisitado.png)
 
 
-## Passos
+## Metodologias de Pesquisa Científica
 
-# Estrutura de um Artigo Empírico
+**Ciência**: 
 
-# Reprodutibilidade da Pesquisa Ciêntifica
+Aplica Técnicas `r "$\\rightarrow$"` Métodos `r "$\\rightarrow$"` Fundamentos Epistemológicos
+\bigskip
 
-# DS como prática acadêmica
 
-## Coleta e Tratamento
+- Modalidades de Pesquisa Acadêmicas:
+  
+  \bigskip
+  - Pesquisa Teórica
+  
+  \bigskip
+  - Pesquisa Teórica-Empírica
 
-![Dados Estruturados e Não estruturados](imagens/strutureUnstruture.png)
 
+
+## Elementos de um Artigo Empírico
+
+![Elementos - Artigo Empírico](imagens/elementos-artigo-empirico.png)
+
+
+Exemplos: [Artigos 1](ArtigosExemplos/artigo1.pdf); [Revista Economia Aplicada - USP](https://www.revistas.usp.br/ecoa); [Journal of Applied Economics](https://www.tandfonline.com/toc/recs20/current)
+
+
+# DS e a Pesquisa Teórica-Empírica
+
+![CRISP-DM @ibm2021crisp e ASP-ER](imagens/crsip-asp.png)
 
 
 ## Coleta e Tratamento
@@ -107,7 +144,7 @@ O dados precisam ser **tratamentodos**:
   
 \end{itemize}
 ```
-# Visualização
+
 
 ## Visualização
 
@@ -117,17 +154,14 @@ Uma vez que seus dados estejam arrumados, podemos passar para a parte de **explo
 
 Um bom processo de visualização de dados permite que possamos nos concentrar naquilo que realmente importa, deixando de lado relações não tão importantes.
 
-# Modelagem
 
 ## Modelagem
 
 Uma vez que tenhamos conseguido propor uma *hipótese de trabalho* através da etapa de exploração/visualização de dados, o próximo passo é propor um **modelo** entre as variáveis do nosso conjunto de dados. O objetivo da modelagem é capturar a essência de um conjunto de dados.
 
-# Comunicação
-
 ## Comunicação
 
-A última etapa do processo de *data science* é comunicar os resultados para clientes, gestores ou demais interessados. É uma fase absolutamente crítica do projeto. Isto porque, ao menos que você consiga se comunicar com a sua audiência, de nada valeu todo o trabalho realizado nas etapas anteriores.
+A última etapa do processo de *data science* é comunicar os resultados para clientes, gestores ou demais interessados. Na pesquisa acadêmica: publicar! É uma fase absolutamente crítica do projeto. Isto porque, ao menos que você consiga se comunicar com a sua audiência, de nada valeu todo o trabalho realizado nas etapas anteriores.
 
 # O mundo *tidyverse*
 
@@ -142,7 +176,7 @@ require(tidyverse)
 
 ```
 
-## A família *tidyverse*
+## O mundo *tidyverse*
 
 ![Os pacotes `tidyverse` (@r4ds)](imagens/tidyverse.png)
 

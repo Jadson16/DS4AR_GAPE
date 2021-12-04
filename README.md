@@ -20,6 +20,9 @@ output: html_document
 ## LOGBOOK
 
 
+**04 dez. 2021**
+Finalizei o tópico 2 e 3 (O 3 será apenas a apresetação do RStudio)
+
 **25 de nov. 2021**
 
 Finalizei o tópico 1 (conceitos básicos)

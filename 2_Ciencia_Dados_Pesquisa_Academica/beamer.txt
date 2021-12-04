@@ -10,7 +10,7 @@
 
 \setbeamertemplate{navigation symbols}{}
 \institute{Professor do DECON | Membro GAPE}
-\titlegraphic{\includegraphics[width=0.2\paperwidth]{logo.png}}
+\titlegraphic{\includegraphics[width=0.2\paperwidth]{imagens/logo.png}}
 \setbeamertemplate{title page}[empty]
 
 \setbeamerfont{subtitle}{size=\small}
@@ -36,3 +36,5 @@
 \AtBeginSubsubsection{}
 \setlength{\emergencystretch}{0em}
 \setlength{\parskip}{0pt}
+
+\usepackage{setspace}

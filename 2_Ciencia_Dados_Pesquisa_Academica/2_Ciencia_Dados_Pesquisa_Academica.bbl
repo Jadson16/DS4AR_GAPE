@@ -1,0 +1,30 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hilbert(2021)]{hilbert2021cousuera}
+Martin Hilbert.
+\newblock Computational {Social} {Science} {Methods}, 2021.
+\newblock URL
+  \url{https://www.coursera.org/learn/computational-social-science-methods/home/welcome}.
+
+\bibitem[IBM(2021)]{ibm2021crisp}
+IBM.
+\newblock {IBM} {SPSS} {Modeler} {CRISP}-{DM} {Guide}, May 2021.
+\newblock URL
+  \url{https://prod.ibmdocs-production-dal-6099123ce774e592a519d7c33db8265e-0000.us-south.containers.appdomain.cloud/docs/en/spss-modeler/SaaS?topic=SS3RA7_sub/modeler_crispdm_ddita/modeler_crispdm_ddita-gentopic1.html}.
+
+\bibitem[Severino(2017)]{severino2017metodologia}
+Ant{\^o}nio~Joaquim Severino.
+\newblock \emph{Metodologia do trabalho cient{\'\i}fico}.
+\newblock Cortez editora, 2017.
+
+\bibitem[Wickham and Grolemund(2017)]{r4ds}
+H.~Wickham and G.~Grolemund.
+\newblock \emph{R for {D}ata {S}cience}.
+\newblock O'Reilly Media, 2017.
+
+\end{thebibliography}
