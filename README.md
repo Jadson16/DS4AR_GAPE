@@ -9,7 +9,7 @@ output: html_document
 # DS4AR_GAPE
 
 ## TODO
-- Trabalhanar no tópico 2
+- Trabalhanar no tópico 3
 
 ## BACKLOG
 - Tópicos:

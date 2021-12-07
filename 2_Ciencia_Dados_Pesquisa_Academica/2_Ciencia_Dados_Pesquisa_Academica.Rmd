@@ -148,26 +148,78 @@ O dados precisam ser **tratamentodos**:
 
 ## Visualização
 
-Uma vez que seus dados estejam arrumados, podemos passar para a parte de **exploração dos dados**. A exploração de dados é a arte de analisar seus dados, gerando hipóteses rapidamente, testando-os rapidamente, repetindo-os várias vezes. O objetivo da exploração de dados é gerar muitos leads promissores que você poderá explorar mais tarde com mais profundidade. Em geral, faz-se exploração de dados por meio da *visualização* desses dados.
 
-\bigskip
+```{r Plot1, echo=FALSE, message=FALSE, warning=FALSE}
+# Bibliotecas
+library(tidyverse)
 
-Um bom processo de visualização de dados permite que possamos nos concentrar naquilo que realmente importa, deixando de lado relações não tão importantes.
+# Primeiro Gráfico
+ggplot(mtcars) +
+  geom_point(aes(x = hp, y = mpg)) +
+  labs(title = 'Relação entre consumo e potência',
+       y = 'Consumo',
+       x = 'Potência')
+```
+
+## Visualização
+
+```{r Plot1-melhorado, echo=FALSE, message=FALSE, warning=FALSE}
+# Bibliotecas
+library(tidyverse)
+
+# Primeiro Gráfico
+ggplot(mtcars) +
+  geom_point(aes(x = hp, y = mpg, color = factor(am)),
+             size = 3) +
+  scale_color_manual("Automático",
+                     values = c("red", "blue"),
+                     labels = c("Não", "Sim")) +
+  labs(title = 'Relação entre consumo, potência por tipo de câmbio',
+       y = 'Consumo',
+       x = 'Potência')+
+  theme_classic()
+  #theme_minimal()
+```
 
 
 ## Modelagem
 
-Uma vez que tenhamos conseguido propor uma *hipótese de trabalho* através da etapa de exploração/visualização de dados, o próximo passo é propor um **modelo** entre as variáveis do nosso conjunto de dados. O objetivo da modelagem é capturar a essência de um conjunto de dados.
+MQO:
+$$
+y_i = \beta_{1}x_{1i} + \beta_{2}x_{2i} + \dots + \beta_{k}x_{ki} + \epsilon_i, i = 1, \dots N.
+$$
 
-## Comunicação
 
-A última etapa do processo de *data science* é comunicar os resultados para clientes, gestores ou demais interessados. Na pesquisa acadêmica: publicar! É uma fase absolutamente crítica do projeto. Isto porque, ao menos que você consiga se comunicar com a sua audiência, de nada valeu todo o trabalho realizado nas etapas anteriores.
+```{r echo=FALSE, resize.width=0.5, results= 'asis'}
+data(mtcars)
+resultado <- lm(mpg ~ hp, data = mtcars)
+
+resultado1 <- lm(mpg ~ hp, data = mtcars, subset = (am == 0))
+
+resultado2 <- lm(mpg ~ hp, data = mtcars, subset = (am == 1))
+
+stargazer::stargazer(resultado,resultado1, resultado2, title = "Regressão por MQO", 
+                     header = FALSE,
+                     font.size = "tiny")
+
+#stargazer::stargazer(resultado,  ci=TRUE, type = "text",no.space = TRUE, 
+#                     title = "Tabela 1",
+#                     header = FALSE,
+#                     #single.row = TRUE,
+#                     column.sep.width = "1pt",
+#                     font.size = "tiny")
+
+
+```
+
+
+## Rmarkdown
 
 # O mundo *tidyverse*
 
 ## O mundo *tidyverse*
 
-De modo a fazer cada uma dessas etapas dentro do R, nós vamos utilizar a família de pacotes `tidyverse`. Assim, antes de qualquer coisa, certifique-se que você tenha o tenha instalado na atual versão do R.
+- Todas as Etapas podem ser desenvolvidas no ambiente do RStudio
 
 ```{r code1, echo=T, eval=F, results='markup', warning=FALSE, message=FALSE, size='tiny'}
 
