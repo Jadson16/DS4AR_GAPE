@@ -1,0 +1,21 @@
+1. Colocar no gogle: baixar R
+
+2. procurar onde foi baixado
+
+3. Procurar se já está baixado
+
+
+4. Abrir Rstudio
+
+5. Ir em Tools
+
+6. Sys.which("make")
+
+7. write("PATH=".....)
+
+7. install.packagens("tidyverse")
+
+
+
+
+

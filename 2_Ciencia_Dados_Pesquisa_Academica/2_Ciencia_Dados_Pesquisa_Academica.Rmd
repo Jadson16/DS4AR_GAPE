@@ -215,16 +215,24 @@ stargazer::stargazer(resultado,resultado1, resultado2, title = "Regressão por M
 
 ## Rmarkdown
 
+- Literate Programs - LitPro;
+
+- [Exemplo](LitarateProgramming/2.Rmarkdown_paper_example.pdf)
+
 # O mundo *tidyverse*
 
 ## O mundo *tidyverse*
 
-- Todas as Etapas podem ser desenvolvidas no ambiente do RStudio
+- Todas as etapas podem ser desenvolvidas em um único ambiente (RStudio);
+
+\bigskip
+
+- Bibliotecas, bibliotecas e seus próprios pacotes.
 
 ```{r code1, echo=T, eval=F, results='markup', warning=FALSE, message=FALSE, size='tiny'}
 
 install.packages('tidyverse')
-require(tidyverse)
+library(tidyverse)
 
 ```
 
