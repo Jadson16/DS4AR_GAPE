@@ -1,3 +1,5 @@
+## Instalando o R e RStudio
+
 1. Colocar no gogle: baixar R
 
 2. procurar onde foi baixado
@@ -14,6 +16,10 @@
 7. write("PATH=".....)
 
 7. install.packagens("tidyverse")
+
+
+
+## Criando um Projeto
 
 
 

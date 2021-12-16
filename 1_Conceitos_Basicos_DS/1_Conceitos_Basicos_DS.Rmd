@@ -36,23 +36,27 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 # O que é Ciência de Dados?
 
->> Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data [IBM](https://www.ibm.com/cloud/learn/data-science-introduction).
-\pause
+
+> Data science [...] allow you to turn raw data into understanding, insight, and knowledge. (@r4ds) 
 
 \bigskip
 
 > Data science combines multiple fields, including statistics, scientific methods, artificial intelligence (AI), and data analysis, to extract value from data [Oracle](https://www.oracle.com/data-science/what-is-data-science/).
-\pause
 
 \bigskip
-> Data science [...] allow you to turn raw data into understanding, insight, and knowledge. (@r4ds) 
+
+>> Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data [IBM](https://www.ibm.com/cloud/learn/data-science-introduction).
+
+
+
+
 
 
 
 ## Áreas multidisciplinares
 
 
-![Big Data e Data Science](imagens/data-science_dominio.png){width=70%}
+![Data Science](imagens/data-science_dominio.png){width=70%}
 
 ## Big Data
 
@@ -80,10 +84,14 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 
 - Programação orientada à problema.
 
+\bigskip
+
+- R
+
 
 
 ## **Não** iremos trabalhar com:
-  \pause
+
   
   + Big Data;
   
