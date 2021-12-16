@@ -6,7 +6,7 @@ author: "Jadson Pessoa\\thanks{GAPE/UFMA - Departament of Economics}"
 output:
   pdf_document
   # html_book
- # bookdown::pdf_document2:
+  # bookdown::pdf_document2:
   #  toc: no
   #  number_sections: yes
 # csl: harvard-imperial-college-london.csl

@@ -1,0 +1,7 @@
+1. Literate programming
+
+2. Boas práticas
+    - Artigo: How to make a pie.
+    - Criar pastas no projeto
+
+3. Abrir um Rmarkdown
